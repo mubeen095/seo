@@ -1,0 +1,28 @@
+/* Container to hide overflow */
+.logo-scroll-container {
+  width: 100%;
+  overflow: hidden !important;
+  /* padding: 0 140px; */
+ 
+}
+
+.logo-scroll {
+  display: flex;
+  animation: marquee 10s linear infinite; /* Custom scrolling animation */
+}
+
+.logo {
+  width: 150px;
+  height: 50px; /* Adjust size of logos */
+  margin-right: 76px; /* Space between logos */
+}
+
+/* Keyframe for scrolling from right to left */
+@keyframes marquee {
+  0% {
+    transform: translateX(0); /* Start from the far right */
+  }
+  100% {
+    transform: translateX(-100%); /* End on the far left */
+  }
+}
