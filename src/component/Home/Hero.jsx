@@ -11,7 +11,7 @@ function Hero() {
           IT NOVA 
         </p>
         <h1 className=" text-[30px]  break-words md:text-[75px] font-[800] tracking-wide  md:max-w-max max-w-[300px] md:leading-[82px] md:tracking-[-3px] mt-[50px] text-black w-[710px]  max-[550px]:text-center ">
-        Revolutionizing How India Learns 
+        Learn In-Demand Tech Skills: Programming, DSA & Web Development
         </h1>
         <div className=" flex md:flex-row flex-col md:gap-0 gap-4 justify-center w-full  items-center mt-[58px] md:w-fit ">
           <Link
@@ -36,13 +36,13 @@ function Hero() {
           loading="lazy"
           className=" max-w-[400px] md:max-w-[647px] h-[553px] max-[550px]:h-[370px] "
           src="/image/Homepage/hero_absolute_image.png"
-          alt=""
+          alt="IT NOVA Hero Section Background"
         />
         <img
           loading="lazy"
           className=" absolute h-auto w-[350px] md:w-[448px] left-[50%] translate-x-[-50%]  bottom-0 top-[50%] max-[550px]:top-[60%]  translate-y-[-60%]  "
           src="/image/Homepage/natasha_image.png"
-          alt=""
+          alt="IT NOVA Course Instructor"
         />
         <ScrollSpeed
           speed={-0.8}
@@ -51,7 +51,7 @@ function Hero() {
           <img
             loading="lazy"
             src="/image/Homepage/hero_image2.png"
-            alt=""
+            alt="IT NOVA Learning Platform Features"
             // style="transform: translateY(0px);"
           />
         </ScrollSpeed>
@@ -63,7 +63,7 @@ function Hero() {
             loading="lazy"
             src="/image/Homepage/enroll_chip.svg"
             className="max-[550px]:relative max-[550px]:bottom-[280px] max-[550px]:w-[60%] right-[10px]"
-            alt=""
+            alt="IT NOVA Enrollment Information"
           />
         </ScrollSpeed>
         <ScrollSpeed
@@ -74,7 +74,7 @@ function Hero() {
             loading="lazy"
             src="/image/Homepage/google_certificate.svg"
             className="max-[550px]:relative max-[550px]:bottom-[210px] max-[550px]:w-[60%] -right-[40px]"
-            alt=""
+            alt="IT NOVA Google Certification"
           />
         </ScrollSpeed>
 
@@ -86,7 +86,7 @@ function Hero() {
             loading="lazy"
             src="/image/Homepage/google_review_chip.svg"
             className="max-[550px]:relative max-[550px]:-bottom-[150px] max-[550px]:w-[70%] -right-[40px]"
-            alt=""
+            alt="IT NOVA Student Reviews"
           />
         </ScrollSpeed>
       </div>

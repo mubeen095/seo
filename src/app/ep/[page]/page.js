@@ -27,9 +27,9 @@ const EpicProgram = ({ params }) => {
   }
 
   const courseData = HeroEliteData[page];
-  const pageTitle = `${courseData?.heading} Course at IT NOVA | Best Online ${courseData?.heading} Training`;
-  const pageDescription = `${courseData?.subHeading} ${courseData?.array?.join(" ")}`;
-  const canonicalUrl = `https://itnova.com/ep/${page}`;
+  const pageTitle = `${courseData?.heading} Course | IT NOVA - Learn Tech Skills Online`;
+  const pageDescription = `Master ${courseData?.heading} with expert-led online training at IT NOVA. Join 200K+ learners. Industry-recognized certification. Enroll now!`;
+  const canonicalUrl = `https://itnova.in/ep/${page}`;
 
   return (
     <div className="relative pb-[100px] ">
